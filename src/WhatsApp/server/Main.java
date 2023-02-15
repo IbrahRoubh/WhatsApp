@@ -1,4 +1,4 @@
-package WhatsApp.Server;
+package WhatsApp.server;
 
 
 public class Main {

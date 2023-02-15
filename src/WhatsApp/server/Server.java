@@ -1,4 +1,4 @@
-package WhatsApp.Server;
+package WhatsApp.server;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -20,6 +20,7 @@ public class Server implements Runnable{
             try {
                 System.out.println("wait for client:");
                 client=socket.accept();
+                System.out.println("new client enter ;)");
             }catch (Exception e){
                 System.out.println(e);
                 System.exit(1);
